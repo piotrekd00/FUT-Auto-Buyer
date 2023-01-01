@@ -31,5 +31,5 @@ export const increAndGetStoreValue = (key) => {
 
 export const getDataSource = () => {
   const commonSettings = getValue("CommonSettings") || {};
-  return (commonSettings["idAbUseFutWiz"] ? "futwiz" : "futbin").toUpperCase();
+  return ("futwiz").toUpperCase();
 };
